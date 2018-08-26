@@ -1,0 +1,29 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d && npm run copy",
+    "start": "webpack-dev-server --open -d",
+    "copy": "cpr dist ../shell/src/client-e -d"
+  },
+  "keywords": [],
+  "author": "Manfred Steyer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular": "^1.6.50",
+    "@types/node": "^10.9.2",
+    "cpr": "^3.0.1",
+    "css-loader": "^1.0.0",
+    "to-string-loader": "^1.1.5",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "angular": "^1.7.3"
+  }
+}

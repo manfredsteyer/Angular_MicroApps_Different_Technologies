@@ -33,7 +33,13 @@ export class AppComponent {
       loaded: false,
       path: 'client-d/main.bundle.js',
       element: ''
+    },
+    "client-e": {
+      loaded: false,
+      path: 'client-e/main.js',
+      element: 'booking-list'
     }    
+
   };
 
   ngOnInit() {
@@ -41,6 +47,7 @@ export class AppComponent {
     this.load('client-b');
     this.load('client-c');
     this.load('client-d');
+    this.load('client-e');
   }
 
   load(name: string): void {

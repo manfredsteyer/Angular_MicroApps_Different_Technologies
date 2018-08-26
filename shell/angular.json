@@ -49,6 +49,11 @@
               },
               {
                 "glob": "**/*",
+                "input": "src/client-e",
+                "output": "/client-e"
+              },
+              {
+                "glob": "**/*",
                 "input": "src/img",
                 "output": "/img"
               }

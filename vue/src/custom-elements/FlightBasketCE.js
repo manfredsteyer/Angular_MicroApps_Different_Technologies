@@ -32,14 +32,14 @@ export default class FlightBasket extends HTMLElement {
         const cssTheme = require('!to-string-loader!css-loader!../assets/css/paper-dashboard.css')
 
         this.shadowRoot.innerHTML = `
-          <style>${cssBase}</style>
-          <style>${cssTheme}</style>
-          
-          <div id="component"></div>
-      `;
+            <style>${cssBase}</style>
+            <style>${cssTheme}</style>
+            
+            <div id="component"></div>
+        `;
 
-      const comp = this.shadowRoot.getElementById('component');
-      
+        const comp = this.shadowRoot.getElementById('component');
+        
         this.vue = new Vue({
             data: {
                 products: []
