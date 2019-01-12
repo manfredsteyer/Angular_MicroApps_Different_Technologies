@@ -17,7 +17,7 @@ export class AppComponent {
     "client-a": {
       loaded: false,
       path: 'client-a/main.bundle.js',
-      element: 'client-a'
+      element: 'client-a' //<client-a></client-a>
     },
     "client-b": {
       loaded: false,
@@ -79,3 +79,7 @@ export class AppComponent {
   }
 
 }
+
+
+
+
