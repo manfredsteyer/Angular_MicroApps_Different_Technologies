@@ -29,7 +29,7 @@
     "@angular/router": "6.0.0-rc.6",
     "@webcomponents/custom-elements": "^1.1.0",
     "angular-oauth2-oidc": "^5.0.2",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "core-js": "^2.5.4",
     "rxjs": "6.0.0",
     "zone.js": "^0.8.24"
